@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+/*body*/
+body {
+    background-color: #d3d3d3; 
+}
+.col-md-12 {
+    padding: 0px;   
+}
+
+/*gif background*/
+.gif-bg {
+    background: url('https://media0.giphy.com/media/JtxuHiNtGmWas/giphy.gif') no-repeat center top;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    /* for mobile and tablets */
+    background-size: cover;
+    padding: 25px;
+    position: relative; 
+}
+
+/*search bar and label*/
+input, label { 
+    margin: 10px;   
+}
+h1 { 
+    font-family: 'Coiny', cursive;
+    color: #ffffff;
+    text-shadow: 1px 1px #ffffff;
+}
+
+/*jumbotron*/
+.jumbotron { 
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+}
+
+/*appended buttons*/
+#buttons-view {
+    margin: 25px auto;   
+}
+
+/*buttons*/
+.mammalBtn { 
+    margin: 10px;  
+    font-family: sans-serif;   
+    font-size: 18px;      
+}
+
+.logo { 
+    float: right;  
+    width: 100px;    
+}
+
+/*text in label*/
+label { 
+    font-family: 'Coiny', cursive;
+    font-size: 25px;    
+    color: #ffffff; 
+    /* text-shadow: 1px 1px #000000;    */
+}
+
+/*size of gifs*/
+.gif {
+    width: 380px;
+    height: 270px;
+    text-align: center;
+    text-justify: auto;
+    margin: 25px auto;
+}
+
+/*justification of gifs in display div*/
+.display { 
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*buttons*/
+button { 
+    margin: 5px; 
+    border-radius: 5px;    
+}
+
+/*text in input*/
+input { 
+    border-radius: 5px; 
+    font-family: sans-serif;
+    font-size: 18px;    
+}
+
+h5 { 
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center; 
+    line-height: 200%;  
+}
+
+/* footer */
+.footer {
+    display: flex;  
+    text-align: center; 
+    justify-content: space-between;    
+}
